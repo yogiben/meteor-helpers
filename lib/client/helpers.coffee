@@ -8,7 +8,7 @@ Template.registerHelper 'getUser', (_id) ->
   if Meteor.users
     Meteor.users.findOne _id
 
-Template.registerHelper 'getDoc', (collection, _id) ->
+Template.registerHelper 'getDoc', (_id, collection) ->
   if window[collection].findOne _id
     window[collection].findOne _id
     
