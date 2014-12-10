@@ -3,7 +3,7 @@ meteor-helpers
 
 Meteor helpers that should come as default
 
-```
+```coffeescript
 Template.registerHelper 'Users', ->
 	Meteor.users
 
