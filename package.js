@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Meteor helpers that should come as standard",
-  version: "0.0.4",
+  version: "0.0.5",
   git: "https://github.com/yogiben/meteor-helpers.git",
   keywords: "Users, User, timeSince, prettyDate and more"
 });
